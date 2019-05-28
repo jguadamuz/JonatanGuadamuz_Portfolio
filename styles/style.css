@@ -1,0 +1,158 @@
+/*Resetting to known values*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: red 1px solid; */
+}
+
+/*Main sections*/
+
+/*
+  Centers the whole content in the middle of the window
+  with a fixed width
+*/
+
+body {
+    font-family: "Arial Unicode MS", "Arial", "Helvetica", sans-serif;
+}
+div.content {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(75, 55, 63);
+}
+
+header {
+    width: 1200px;
+    padding: 15px 30px;
+    background-color: rgb(242, 242, 242);
+    /*background-color: darkgray;*/
+}
+
+footer {
+    width: 1200px;
+    background-color: white;
+    /*outline: blue 1px solid;*/
+}
+
+.main_content p {
+    margin: 13px 12px;
+    font-size: 19px;
+}
+
+#portfolio_content {
+    /* outline: blue 1px solid; */
+    /* display: inline-block; */
+    width: 1035px;
+    padding: 0 0 0 25px;
+}
+
+header h1, header h2 {
+    display: inline-block;
+}
+
+header h1 {
+    text-align: left;
+    width: 270px;
+    /*outline: blue 1px solid;*/
+    font-size: 40px;
+}
+
+header h2 {
+    text-align: right;
+    width: 840px;
+    /*outline: blue 1px solid;*/
+    font-size: 24px;
+}
+
+.profile_pic {
+    margin: 30px;
+    display: inline-block;
+    border: 5px solid rgb(192, 192, 192);
+    width: 495px;
+    height: 330px;
+}
+
+section.bio {
+    /* outline: purple 1px solid; */
+    display: inline-block;
+    height: 330px;
+    width: 615px;
+    margin: 30px 30px 30px 0;
+    vertical-align: top;
+    background-color: white;
+}
+
+div.icons {
+    height: 200px;
+}
+
+section.portfolio {
+    display: inline-block;
+    margin: 0 0px 30px 30px;
+    width: 360px;
+    min-height: 580px;
+    vertical-align: top;
+    background-color: white;
+
+     /*outline: red 1px solid;*/
+}
+
+.portfolio_top {
+    height: 415px;
+}
+
+.portfolio p {
+    margin: 5px 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.portfolio_bottom button {
+    color: rgb(219,234,230);
+    background: rgb(64,125,97);
+    height: 28px;
+    /*width: 80px;*/
+    border: 2px solid rgb(25,62,45);
+    border-radius: 7px;
+    font-weight: bold;
+    margin: 15px auto 25px;
+    display: block;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.portfolio .portfolio_bottom img {
+    display: inline-block;
+    width: 58px;
+    margin-left: 11px;
+    margin-top: 14px;
+}
+
+.portfolio img {
+    width: 360px;
+}
+
+footer img {
+    margin-bottom: -8px;
+    margin-right: 5px;
+    width: 30px;
+
+}
+
+.content footer .contact {
+    padding: 10px;
+}
+
+.content footer p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    background: linear-gradient(0deg, rgb(172,172,172), rgb(135,135,147), rgb(175,175,179));
+    color: white;
+    padding: 12px;
+    height: 50px;
+    font-size: 22px;
+    /*outline: blue 1px solid;*/
+}
